@@ -24,8 +24,8 @@ namespace MyFirstCodeOPP
         {
             return string.Format("---EMPLOYEE---\n\t" +
                 " ID:{0} \n\t " +
-                "First Name:{2} \n\t " +
-                "Last Name:{1}\n\t " +
+                "Last Name:{2}\n\t " +
+                "First Name:{1} \n\t " +
                 "Birth Date: {3}\n\t" +
                 "Hiring Date: {4}\n\t" +
                 "Is Active?:{5}",
