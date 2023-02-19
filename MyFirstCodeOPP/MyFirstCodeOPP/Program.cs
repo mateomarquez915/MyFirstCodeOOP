@@ -8,8 +8,18 @@ namespace MyFirstCodeOPP
         {
             try
             {
-                var dateObject = new Date(1, 12, 50);
+                int year, month, day;
+                Console.WriteLine("input the year");
+                year = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("input the month");
+                month = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Input the day");
+                day = Convert.ToInt32(Console.ReadLine());
+                var dateObject = new Date(year, month, day);
                 Console.WriteLine(dateObject);
+
+
+
             }
             catch (Exception ex)
             {
